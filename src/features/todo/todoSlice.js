@@ -22,6 +22,7 @@ export const todoSlice = createSlice({
     }
 })
 
+export const todoReducer = todoSlice.reducer
+
 export const {addTodo,removeTodo} = todoSlice.actions;
 
-export default todoSlice.reducer
